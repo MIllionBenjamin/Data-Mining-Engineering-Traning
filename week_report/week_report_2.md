@@ -1,6 +1,6 @@
 # 第二周周报
 
-> 本次实践完整代码见[../code/competition_1_tianchi/week_1_svm_logistic/logistic.py](../code/competition_1_tianchi/week_1_svm_logistic/logistic.py)
+> 本次实践完整代码见[../code/competition_1_tianchi/week_2_svm_logistic](../code/competition_1_tianchi/week_2_svm_logistic)
 
 - [第二周周报](#第二周周报)
   - [一、特征工程](#一特征工程)
@@ -48,7 +48,7 @@ data_test_a[category_fea] = data_test_a[category_fea].fillna(data_train[category
 
 本次实践起初采用SVM模型进行训练，训练时间很长，若使用完整80万条训练数据，数小时都无法完成训练与预测。选取前3万条训练数据训练模型，训练时间数分钟，但模型预测效果很不好。故改用其他模型再做尝试。
 
-[本次实践SVM代码](../code/competition_1_tianchi/week_1_svm_logistic/svm.py)
+[本次实践SVM代码](../code/competition_1_tianchi/week_2_svm_logistic/svm.py)
 
 ### 2. Logistic Regression
 
@@ -58,7 +58,7 @@ data_test_a[category_fea] = data_test_a[category_fea].fillna(data_train[category
 
 ![](./week_report_2_images/logistic_grade.png)
 
-[本次实践逻辑回归代码](../code/competition_1_tianchi/week_1_svm_logistic/logistic.py)（即本博客开头给出的链接）
+[本次实践逻辑回归代码](../code/competition_1_tianchi/week_2_svm_logistic/logistic.py)（即本博客开头给出的链接）
 
 
 
