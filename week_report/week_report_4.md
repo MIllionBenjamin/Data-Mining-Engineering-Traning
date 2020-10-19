@@ -44,13 +44,10 @@ pip3 install xgboost
 
 全部参数介绍可见[官方英文文档-XGBoost Parameters](https://xgboost.readthedocs.io/en/latest/parameter.html)，在此介绍本次代码中自定义使用的参数（已自行翻译为中文）。
 
-`eta`：即学习率`learning_rate`，默认为0.3。范围[0, 1]
-
-`max_depth`：树最大深度，默认为6。此值越大，模型越复杂，越容易过拟合。范围[0, ∞] （只有使用 `lossguided` 生长策略，`tree_method` 设为 `hist` 时才能为0）
-
-`objective`：确定学习任务及对应的学习目标，默认为 `reg:squarederror`（均方误差回归）。本次代码设为 `binary:logistic` ，即二分类逻辑回归，输出概率。
-
-`num_round`：提升的轮数。
+- `eta`：即学习率`learning_rate`，默认为0.3。范围[0, 1]
+- `max_depth`：树最大深度，默认为6。此值越大，模型越复杂，越容易过拟合。范围[0, ∞] （只有使用 `lossguided` 生长策略，`tree_method` 设为 `hist` 时才能为0）
+- `objective`：确定学习任务及对应的学习目标，默认为 `reg:squarederror`（均方误差回归）。本次代码设为 `binary:logistic` ，即二分类逻辑回归，输出概率。
+- `num_round`：提升的轮数。
 
 #### d. XGBoost的使用
 
@@ -75,6 +72,9 @@ result = bst.predict(dtest)
 
 #### e. 本次成绩
 
+![](./week_report_4_images/xgboost_score.png)
+
+相比第三周使用逻辑回归的成绩0.7033有所提升。
 
 
 
