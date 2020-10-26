@@ -1,6 +1,6 @@
 # 第四周周报
 
-> 本次实践完整代码见[../code/competition_1_tianchi/week_3_xgboost](../code/competition_1_tianchi/week_3_xgboost)
+> 本次实践完整代码见[../code/competition_1_tianchi/week_4_xgboost](../code/competition_1_tianchi/week_4_xgboost)
 
 - [第四周周报](#第四周周报)
   - [一、特征工程](#一特征工程)
